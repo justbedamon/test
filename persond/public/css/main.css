@@ -1,0 +1,120 @@
+.intro{
+	text-align: center;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #263e50;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #df691a;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.intro{
+	
+	color: ;
+	margin-left: 500px;
+	background: rgba(0,0,0,0.3);
+	width: 500px;
+  height: 500px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+  height: 100px;
+  background-color: #999999;
+}
+footer ul.footerleft{
+    margin-left: 150px;
+    margin-top: 10px;
+}
+footer ul.footerleft li{
+    display: inline;
+    margin-right: 25px;
+}
+footer a{
+    color: #222;
+}
+
+footer a:hover{
+    color: #ffffff;
+    text-decoration: none;    
+}
+.social:hover {
+     -webkit-transform: scale(1.0);
+     -webkit-transition-duration: 0.5s;
+ }
+ .social {
+     -webkit-transform: scale(0.8);
+     color: #222;
+     
+ }
+/*.bottom:after{
+    background-color: #005f60;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    overflow: hidden;
+    content: url(img/cellphone.png);
+  	clear: both;
+  	display: table;
+
+}
+img{
+  width: 50px;
+}
+  .column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+*/
+
